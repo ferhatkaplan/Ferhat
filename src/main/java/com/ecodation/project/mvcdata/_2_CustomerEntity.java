@@ -17,7 +17,7 @@ import java.util.Date;
 
 //Entity
 @Entity
-@Table(name="customer")
+@Table(name="User")
 public class _2_CustomerEntity {
 
     @Id

@@ -44,6 +44,7 @@ public class _5_CustomerController implements _4_ICustomer {
                     .surname("soyadi " + i)
                     .email("email " + i)
                     .password("password")
+                    .id("id" + i)
                     .build();
             repository.save(entity);
             entityList.add(entity);
